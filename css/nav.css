@@ -1,0 +1,150 @@
+.nav {
+	height: 518px;
+	margin-bottom: 10px;
+}
+
+.nav header {
+	height: 38px;
+	line-height: 38px;
+	color: #fff;
+}
+
+.nav header span {
+	height: 38px;
+	font-size: 16px;
+	padding-left: 15px;
+	width: 245px;
+	background: #1ebda7;
+	border-right: #1ebda7;
+}
+
+.nav header ul {
+	height: 37px;
+	font-size: 16px;
+	width: 910px;
+}
+
+.nav header ul {
+	height: 38px;
+	font-size: 16px;
+	background: #2bb8aa;
+	font-weight: bold;
+}
+
+.nav header ul li {
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	background: #2bb8aa;
+}
+
+.nav header ul li:hover {
+	background: #999;
+}
+
+.nav header ul li a {
+	color: #fff;
+}
+
+.nav_item {
+	height: 479px;
+	width: 245px;
+	border: 1px solid #ddd;
+	border-top: none;
+}
+
+.nav_item li {
+	height: 52.4px;
+	line-height: 52.4px;
+	width: 233px;
+	border-bottom: 1px solid #ddd;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+	border-left: none;
+	margin-left: 12px;
+}
+
+.item_left a {
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+}
+
+.item_left a:hover {
+	color: #2BB8AA;
+}
+
+.item_right {
+	float: right;
+}
+
+.item_right2 {
+	float: right;
+}
+
+.item_right a {
+	color: #999;
+	padding-left: 5px;
+}
+
+.item_right2 a {
+	color: #999;
+	padding-left: 5px;
+}
+
+.arrow_right {
+	background: url("../images/arrow-right.png") no-repeat;
+	width: 20px;
+	height: 20px;
+	float: right;
+	margin-top: 16px;
+}
+
+.nav_item2 {
+	/*未获得鼠标焦点*/
+	width: 284px;
+	height: 479px;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	position: absolute;
+	left: 247px;
+	top: 0px;
+	display: none;
+}
+
+.nav_allitem {
+	/*代表section 包含nav_item和nav_item2*/
+	position: relative;
+}
+
+.nav_item2 dl {
+	width: 142px;
+}
+
+.nav_item2 dl dt {
+	height: 52.4px;
+	line-height: 52.4px;
+	width: 142px;
+	margin-left: 20px;
+	margin-top: 3px;
+}
+
+.nav_item2 dl dd {
+	height: 21.2px;
+	line-height: 21.2px;
+	width: 142px;
+	margin-left: 20px;
+	margin-top: 3px;
+}
+
+.nav_item2 dl dt a {
+	font-size: 18px;
+}
+
+.nav_item2 dl a:link {
+	color: #666;
+}
+
+.nav_item2 dl a:hover {
+	color: #999;
+}

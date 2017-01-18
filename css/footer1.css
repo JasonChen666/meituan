@@ -1,0 +1,95 @@
+  .footer1
+		     {
+		     	border-top: 1px solid #eee;
+		     	margin-top: 1px;
+		     	height: 255px;
+		     }
+		    
+		    .footer1 dl
+		    {
+		    	width: 18%;
+		    	float: left;
+		    }
+		    
+		    .footer1 dl dt
+		    {
+		    	font-size: 14px;
+		    	font-weight: bold;
+		    	padding: 20px 5px;
+		    }
+		    
+		    .footer1 dl dd
+		    {
+		    	font-size: 12px;
+		    	padding: 5px 5px;
+		    }
+		    
+		    .footer1 dl dd a
+		    {
+		    	color: #999;
+		    }
+		    
+		    .footer1 dl dd a:hover
+		    {
+		        text-decoration: underline;
+		    }
+		    /*左边的所有dl结束*/
+		    
+		    .footer1_right 
+		    {
+		    	width: 28%;
+		    	margin-top: 25px;
+		    }
+		    
+		    .footer1_right div 
+		    {
+		    	padding-left: 25px;
+		    	border-left: 1px solid #eee;
+		    }
+		    
+		    .icon_service 
+		    {
+		    	background: url("../images/icon-customer-service.png") no-repeat;
+		    	padding-top: 52px;
+		    	font-size: 14px;
+		    	color: #666;
+		    }
+		    
+		    .phone_all
+		    {
+		    	margin-top: 8px;
+		    }
+		    
+		    .phone_number 
+		    {
+		    	font-size: 18px;
+		    	font-weight: 700;
+		    	color: #666;
+		    }
+		    
+		    .phone_time
+		    {
+		    	color: #999;
+		    }
+		    
+		    .refund
+		   {
+		   	    margin-top: 35px;
+		   	    color: #666;
+		   }
+		   
+		   .tutorials
+		   {
+		   	margin-top: 5px;
+		   }
+		   
+		   .tutorials a
+		   {
+		   	color: #2bb8aa;
+		   }
+		   
+		   .tutorials a:hover
+		   {
+		   	color: #2bb8aa;
+		   	text-decoration: underline;
+		   }

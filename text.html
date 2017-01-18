@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>meiTuan</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/header.css" />
+		<link rel="stylesheet" type="text/css" href="css/logo.css" />
+		<link rel="stylesheet" type="text/css" href="css/nav.css"  />
+		<link rel="stylesheet" type="text/css" href="css/links.css"  />
+		<link rel="stylesheet" type="text/css" href="css/footer1.css"  />
+		<style>
+		   
+		</style>
+	</head>
+	<body>
+		<header class="top_box">
+		     <div class="top width1170">	
+			    <!--<img src="slices/1.top.gif" alt="">-->
+			   <div  class="top_left f-l">
+			    <ul>
+			    	<li>
+			    	  <a href="">	
+			    		<i class="collect"></i>
+			    		收藏美团
+			    	  </a>	
+			    	</li>
+			    	<li><a href="">登录</a></li>
+			    	<li class="login"><a href="">注册</a></li>
+			    </ul>
+			   </div> 
+			   <div class="top_right f-r">
+			   	<ul>
+			   		<li><a href="">我的订单</a></li>
+			   		<li class="toggleli" id="toggleli1">
+			   		  <a href="" class="togglea">
+			   			我的美团
+			   			<i class="icon_tri"></i>
+			   			<i class="vertical_line"></i>
+			   		  </a>
+			   		  <div class="togglemenu">
+			   		  	<ul>
+			   		  		<li><a>我的订单</a></li>
+			   		  		<li><a>我的收藏</a></li>
+			   		  		<li><a>我的评价</a></li>
+			   		  		<li><a>抵用卷</a></li>
+			   		  		<li><a>我的余额</a></li>
+			   		  		<li><a>账户设置</a></li>
+			   		  	</ul>
+			   		  </div>
+			   		</li>
+			   		<li class="toggleli" id="toggleli2">
+			   		  <a href="" class="togglea">
+			   			最近浏览
+			   			<i class="icon_tri"></i>
+			   			<i class="vertical_line"></i>
+			   		  </a>
+			   		  <div class="togglemenu_viewed">
+			   		  	<ul>
+			   		  		<li>暂无浏览记录</li>
+			   		  	</ul>
+			   		  </div>
+			   		</li>
+			   		<li class="toggleli" id="toggleli3">
+			   		  <a href="" class="togglea">
+			   			联系客服
+			   			<i class="icon_tri"></i>
+			   			<i class="vertical_line"></i>
+			   		  </a>
+			   		  <div class="togglemenu">
+			   		  	<ul>
+			   		  		<li><a>申请退款</a></li>
+			   		  		<li><a>申请退换货</a></li>
+			   		  		<li><a>查看美团卷</a></li>
+			   		  		<li><a>换绑手机号</a></li>
+			   		  		<li><a>常见问题</a></li>
+			   		  	</ul>
+			   		  </div>
+			   		</li>
+			   		<li class="toggleli" id="toggleli4">
+			   		  <a href="" class="togglea">
+			   			我是商家
+			   			<i class="icon_tri"></i>
+			   			<i class="vertical_line"></i>
+			   		  </a>
+			   		  <div class="togglemenu">
+			   		  	<ul>
+			   		  		<li><a>登陆商家中心</a></li>
+			   		  		<li><a>我想合作</a></li>
+			   		  		<li><a>手机免费开店</a></li>
+			   		  		<li><a>商家营销平台</a></li>
+			   		  	</ul>
+			   		  </div>
+			   		</li>
+			   		<li>
+			   		  <a href="" class="togglea">
+			   			城市招募
+			   			<i class="vertical_line"></i>
+			   		  </a>
+			   		</li>
+			   		<li class="toggleli" id="toggleli5">
+			   		  <a href="" class="togglea">
+			   			更多
+			   			<i class="icon_tri"></i>
+			   			<i class="vertical_line"></i>
+			   		  </a>
+			   		  <div class="togglemenu">
+			   		  	<ul>
+			   		  		<li><a>手机版</a></li>
+			   		  		<li><a>邮件订阅</a></li>
+			   		  		<li><a>邀请好友</a></li>
+			   		  	</ul>
+			   		  </div>
+			   		</li>
+			   	</ul>
+			   </div>
+		     </div>	 
+		</header>
+		<!--头部结束-->
+		
+        <section class="logo width1170">
+		     <!--<img src="slices/2.logo.gif" alt="">-->
+		     <div class="logo_left f-l">
+		       <div class="meiTuan_logo f-l">
+		           <a href=""><img src="images/meiTuan_logo.png" alt=""/></a>
+		       </div>
+		       <div class="city f-l">
+		           <h2><a href="">嘉兴</a></h2>
+		           <a href="" class="city_toggle">切换城市</a>
+		       </div>
+		     </div>
+		     <div class="search_box f-l">
+		     	<form class="search">
+		     		<ul class="groupbuy f-l" id="group">
+		     			<li class="group1">团购</li>
+		     			<li class="group2">商家</li>
+		     			<span class="icon_trismall"></span>
+		     		</ul>
+		     			<input class="f-l input1" type="text" placeholder="请输入商品名称" name="searchsth"/>
+		     			<input class="f-r input2" type="submit" value="搜索"/>
+		     	</form>
+		     	<ul class="search_nav">
+		     			<li><a href="">富悦</a></li>
+		     			<li><a href="">自助</a></li>
+		     			<li><a href="">热度</a></li>
+		     			<li><a href="">御品</a></li>
+		     			<li><a href="">汉拿山</a></li>
+		     			<li><a href="">诺鲜</a></li>
+		     	</ul>
+		     </div>
+		     <div class="sales_return f-r">
+				<a><img src="images/icon-expire-big.png">随时退</a>
+				<a><img src="images/icon-free-big.png">不满意免单</a>
+				<a><img src="images/icon-return-big.png">过期退</a>
+			 </div>
+		</section>
+		<!--logo结束-->
+		
+		<nav class="nav width1170">
+		     <!--<img src="slices/3.nav.gif" alt="">-->
+		     <header>
+		     	<span class="f-l">全部分类</span>
+		     	<ul class="f-r">
+		     		<li><a href="">首页</a></li>
+		     		<li><a href="">今日新单</a></li>
+		     		<li><a href="">美食</a></li>
+		     		<li><a href="">身边外卖</a></li>
+		     		<li><a href="">名店抢购</a></li>
+		     	</ul>
+		     </header>
+		     <section class="nav_allitem" id="nav_all">
+		     	<ul class="nav_item f-l">
+		     		<li>
+		     			<span class="f-l item_left"><a href="">美食</a></span>
+		     			<i class="arrow_right" id="arr"></i>
+		     			<span class="item_right">
+		     			<a href="">代金券</a>
+		     			</span>
+		     			<span class="item_right2">
+		     			<a href="">自助餐</a>
+		     			</span>
+		     			<div class="nav_item2">
+		     		       <dl class="f-l">
+		     			    <dt><a href="">美食</a></dt>
+		     			    <dd><a href="">甜点</a></dd>
+		     			    <dd><a href="">火锅</a></dd>
+		     			    <dd><a href="">自助餐</a></dd>
+		     			    <dd><a href="">饮品</a></dd>
+		     			    <dd><a href="">小吃快餐</a></dd>
+		     			    <dd><a href="">日韩料理</a></dd>
+		     			    <dd><a href="">西餐</a></dd>
+		     			    <dd><a href="">东北菜</a></dd>
+		     			    <dd><a href="">江浙菜</a></dd>
+		     			    <dd><a href="">川湘菜</a></dd>
+		     			    <dd><a href="">西北菜</a></dd>
+		     			    <dd><a href="">中式烧烤</a></dd>
+		     		       </dl>
+		     		       <dl class="f-l">
+		     			    <dt><a href=""></a></dt>
+		     			    <dd><a href="">甜点</a></dd>
+		     			    <dd><a href="">火锅</a></dd>
+		     			    <dd><a href="">自助餐</a></dd>
+		     			    <dd><a href="">饮品</a></dd>
+		     			    <dd><a href="">小吃快餐</a></dd>
+		     			    <dd><a href="">日韩料理</a></dd>
+		     			    <dd><a href="">西餐</a></dd>
+		     			    <dd><a href="">东北菜</a></dd>
+		     			    <dd><a href="">江浙菜</a></dd>
+		     			    <dd><a href="">川湘菜</a></dd>
+		     			    <dd><a href="">西北菜</a></dd>
+		     			    <dd><a href="">中式烧烤</a></dd>
+		     		       </dl>
+		     	          </div>
+		     		</li>
+		     		<li>
+		     			<i class="arrow_right"></i>
+		     			<span class="f-l item_left"><a href="">酒店</a>&#47;<a href="">客栈</a></span>
+		     			<span class="f-l item_right">
+		     			<a href="">经济型酒店</a>
+		     			</span>
+		     			<div class="nav_item2">
+		     		     <dl class="f-l">
+		     		 	  <dt><a href="">酒店</a></dt>
+		     			  <dd><a href="">经济型酒店</a></dd>
+		     			  <dd><a href="">豪华型酒店</a></dd>
+		     			  <dd><a href="">主题酒店</a></dd>
+		     			  <dd><a href="">度假酒店</a></dd>
+		     			  <dd><a href="">公寓型酒店</a></dd>
+		     			  <dd><a href="">客栈</a></dd>
+		     			  <dd><a href="">名宿</a></dd>
+		     		     </dl>
+		     	        </div>
+		     		</li>
+		     		<li>
+		     			<span class="f-l item_left"><a href="">电影</a>&#47;<a href="">在线选座</a></span>
+		     			<span class="f-l item_right">
+		     			</span>
+		     			<i class="arrow_right"></i>
+		     			<div class="nav_item2">
+		     		     <dl class="f-l">
+		     			  <dt><a href="">电影&#47;在线选座</a></dt>
+		     			  <dd><a href="">太空旅客</a></dd>
+		     			  <dd><a href="">西游伏妖</a></dd>
+		     			  <dd><a href="">天龙</a></dd>
+		     			  <dd><a href="">情圣</a></dd>
+		     			  <dd><a href="">西游记</a></dd>
+		     			  <dd><a href="">铁道飞虎</a></dd>
+		     			  <dd><a href="">星球大战</a></dd>
+		     		     </dl>
+		     		    <dl class="f-l">
+		     		 	 <dt><a href="">热门影院</a></dt>
+		     			 <dd><a href="">1.75影城</a></dd>
+		     			 <dd><a href="">SFC上映影城</a></dd>
+		     			 <dd><a href="">大地影院</a></dd>
+		     			 <dd><a href="">横店电影城</a></dd>
+		     			 <dd><a href="">万达影城</a></dd>
+		     		 	 <dd><a href="">新世纪影城</a></dd>
+		     			 <dd><a href="">西餐影城</a></dd>
+		     			 <dd><a href="">东北影城</a></dd>
+		     			 <dd><a href="">江浙影城</a></dd>
+		     		    </dl>
+		     	       </div>
+		     		</li>
+		     		<li>
+		     			<span class="f-l item_left"><a href="">KTV</a></span>
+		     			<i></i>
+		     			<div class="nav_item2">
+		     		     <dl class="f-l">
+		     		     </dl>
+		     		     <dl class="f-l">
+		     		     </dl>
+		     	        </div>
+		     		</li>
+		     		<li>
+		     			<i class="arrow_right"></i>
+		     			<span class="f-l item_left"><a href="">休闲娱乐</a></span>
+		     			<span class="f-l item_right">
+		     			<a href="">足疗按摩</a>
+		     			<a href="">温泉</a>
+		     			</span>
+		     			<div class="nav_item2">
+		     		     <dl class="f-l">
+		     			  <dt><a href="">休闲娱乐</a></dt>
+		     			  <dd><a href="">太空旅客</a></dd>
+		     			  <dd><a href="">西游伏妖</a></dd>
+		     			  <dd><a href="">天龙</a></dd>
+		     			  <dd><a href="">情圣</a></dd>
+		     			  <dd><a href="">西游记</a></dd>
+		     			  <dd><a href="">铁道飞虎</a></dd>
+		     			  <dd><a href="">星球大战</a></dd>
+		     			  <dd><a href="">新世纪影城</a></dd>
+		     			  <dd><a href="">西餐影城</a></dd>
+		     			  <dd><a href="">东北影城</a></dd>
+		     			  <dd><a href="">江浙影城</a></dd>
+		     		     </dl>
+		     		     <dl class="f-l">
+		     			  <dt><a href=""></a></dt>
+		     			  <dd><a href="">1.75影城</a></dd>
+		     			  <dd><a href="">SFC上映影城</a></dd>
+		     			  <dd><a href="">大地影院</a></dd>
+		     			  <dd><a href="">横店电影城</a></dd>
+		     			  <dd><a href="">万达影城</a></dd>
+		     			  <dd><a href="">新世纪影城</a></dd>
+		     			  <dd><a href="">西餐影城</a></dd>
+		     			  <dd><a href="">东北影城</a></dd>
+		     			  <dd><a href="">江浙影城</a></dd>
+		     		     </dl>
+		     	        </div>
+		     		</li>
+		     		<li>
+		     			<i class="arrow_right"></i>
+		     			<span class="f-l item_left"><a href="">周边游</a>&#47;<a href="">旅游</a></span>
+		     			<span class="f-l item_right">
+		     			</span>
+		     			<div class="nav_item2">
+		     		     <dl class="f-l">
+		     			  <dt><a href="">周边游</a></dt>
+		     			  <dd><a href="">太空旅客</a></dd>
+		     			  <dd><a href="">西游伏妖</a></dd>
+		     			  <dd><a href="">天龙</a></dd>
+		     			  <dd><a href="">情圣</a></dd>
+		     			  <dd><a href="">西游记</a></dd>
+		     			  <dd><a href="">铁道飞虎</a></dd>
+		     			  <dd><a href="">星球大战</a></dd>
+		     			  <dd><a href="">新世纪影城</a></dd>
+		     			  <dd><a href="">西餐影城</a></dd>
+		     			  <dd><a href="">东北影城</a></dd>
+		     			  <dd><a href="">江浙影城</a></dd>
+		     		     </dl>
+		     	        </div>
+		     		</li>
+		     		<li>
+		     			<i class="arrow_right"></i>
+		     			<span class="f-l item_left"><a href="">生活服务</a></span>
+		     			<span class="f-l item_right">
+		     			<a href="">婚纱摄影</a>
+		     			<a href="">个性写真</a>
+		     			</span>
+		     			<div class="nav_item2">
+		     		     <dl class="f-l">
+		     			  <dt><a href="">生活服务</a></dt>
+		     			  <dd><a href="">太空旅客</a></dd>
+		     			  <dd><a href="">西游伏妖</a></dd>
+		     			  <dd><a href="">天龙</a></dd>
+		     			  <dd><a href="">情圣</a></dd>
+		     			  <dd><a href="">西游记</a></dd>
+		     			  <dd><a href="">铁道飞虎</a></dd>
+		     			  <dd><a href="">星球大战</a></dd>
+		     			  <dd><a href="">新世纪影城</a></dd>
+		     			  <dd><a href="">西餐影城</a></dd>
+		     			  <dd><a href="">东北影城</a></dd>
+		     			  <dd><a href="">江浙影城</a></dd>
+		     		     </dl>
+		     	        </div>
+		     		</li>
+		     		<li>
+		     			<i class="arrow_right"></i>
+		     			<span class="f-l item_left"><a href="">丽人</a></span>
+		     			<span class="f-l item_right">
+		     			<a href="">美发</a>
+		     			<a href="">美甲</a>
+		     			</span>
+		     			<div class="nav_item2">
+		     		     <dl class="f-l">
+		     			  <dt><a href="">丽人</a></dt>
+		     			  <dd><a href="">太空旅客</a></dd>
+		     			  <dd><a href="">西游伏妖</a></dd>
+		     			  <dd><a href="">天龙</a></dd>
+		     			  <dd><a href="">情圣</a></dd>
+		     			  <dd><a href="">西游记</a></dd>
+		     			  <dd><a href="">铁道飞虎</a></dd>
+		     			  <dd><a href="">星球大战</a></dd>
+		     			  <dd><a href="">新世纪影城</a></dd>
+		     			  <dd><a href="">西餐影城</a></dd>
+		     			  <dd><a href="">东北影城</a></dd>
+		     			  <dd><a href="">江浙影城</a></dd>
+		     		     </dl>
+		     	        </div>
+		     		</li>
+		     		<li>
+		     			<i></i>
+		     			<span class="f-l item_left"><a href="">今日新单</a></span>
+		     			<div class="nav_item2">
+		     		     <dl class="f-l">
+		     		     </dl>
+		     	        </div>
+		     		</li>
+		     	</ul>	
+		     </section>
+		</nav>
+		<!--nav结束-->
+		
+		<section class="famous width1170">
+		     <img src="slices/4.famous.gif" alt="">
+		</section>
+		
+		<section class="food width1170">
+		     <img src="slices/5.food.gif" alt="">
+		</section>
+		
+		<section class="amusement width1170">
+		     <img src="slices/6.amusement.gif" alt="">
+		</section>
+		
+		<section class="movie width1170">
+		     <img src="slices/7.moive.gif" alt="">
+		</section>
+		
+		<section class="hotel width1170">
+		     <img src="slices/8.hotel.gif" alt="">
+		</section>
+		
+		<section class="life width1170">
+		     <img src="slices/9.life.gif" alt="">
+		</section>
+		
+		<section class="shopping width1170">
+		     <img src="slices/10.shopping.gif" alt="">
+		</section>
+		
+		<section class="beauty width1170">
+		     <img src="slices/11.beauty.gif" alt="">
+		</section>
+		
+		<section class="travel width1170">
+		     <img src="slices/12.travel.gif" alt="">
+		</section>
+		
+		<section class="links width1170">
+		     <!--<img src="slices/13.links.gif" alt="">-->
+		     	<ul class="links_top f-l">
+		     		<li><a href="">团购分类</a></li>
+		     		<li><a href="">热门地标</a></li>
+		     		<li><a href="">周边城市</a></li>
+		     		<li><a href="">品牌推荐</a></li>
+		     		<li><a href="">专题分类</a></li>
+		     		<li><a href="">品类分类</a></li>
+		     		<li><a href="">友情链接</a></li>
+		     	</ul>
+		     	<div class="links_bottom f-l">
+		     		<a href="">美食团购</a>
+		     		<a href="">电影团购</a>
+		     		<a href="">休闲娱乐团购</a>
+		     		<a href="">旅游团购</a>
+		     		<a href="">生活服务团购</a>
+		     		<a href="">购物团购</a>
+		     		<a href="">丽人团购</a>
+		     		<a href="">团购评论</a>
+		     		<a href="">品牌团购</a>
+		     		<a href="">专题团购</a>   
+		     	</div>
+		</section>
+		
+		<section class="footer1 width1170">
+		     <!--<img src="slices/14.footer1.gif" alt="">-->
+		     <dl>
+		     	<dt><a href="">获取更新</a></dt>
+		     	<dd><a href="">邮件订阅</a></dd>
+		     	<dd><a href="">iPhone/Android</a></dd>
+		     	<dd><a href="">美团QQ空间</a></dd>
+		     	<dd><a href="">美团新浪微博</a></dd>
+		     	<dd><a href="">sitemap</a></dd>
+		     	<dd><a href="">RSS订阅</a></dd>
+		     </dl>
+		     <dl>
+		     	<dt><a href="">商务合作</a></dt>
+		     	<dd><a href="">商家合作2</a></dd>
+		     	<dd><a href="">美团商家营销平台</a></dd>
+		     	<dd><a href="">到店餐饮代理商招募</a></dd>
+		     	<dd><a href="">市场合作</a></dd>
+		     	<dd><a href="">美团联盟</a></dd>
+		     	<dd><a href="">美团云</a></dd>
+		     	<dd><a href="">廉正邮箱</a></dd>
+		     	<dd><a href="">聚宝盆餐饮开放平台</a></dd>
+		     </dl>
+             <dl>
+		     	<dt><a href="">公司信息</a></dt>
+		     	<dd><a href="">关于美团</a></dd>
+		     	<dd><a href="">美团承诺</a></dd>
+		     	<dd><a href="">媒体报道</a></dd>
+		     	<dd><a href="">加入我们</a></dd>
+		     	<dd><a href="">法律声明</a></dd>
+		     	<dd><a href="">用户协议</a></dd>
+		     	<dd><a href="">美团点评餐饮安全管理办法</a></dd>
+		     </dl>
+             <dl>
+		     	<dt><a href="">用户帮助</a></dt>
+		     	<dd><a href="">申请退款</a></dd>
+		     	<dd><a href="">美团承诺</a></dd>
+		     	<dd><a href="">查看美团券密码</a></dd>
+		     	<dd><a href="">常见问题</a></dd>
+		     	<dd><a href="">开放API</a></dd>
+		     	<dd><a href="">反诈骗公告</a></dd>
+		     </dl>
+		     
+		     <article class="footer1_right f-l">
+		       <div>	
+		     	<p class="icon_service">客服电话</p>
+		     	<p class="phone_all">
+		     		<span class="phone_number" >10107888</span>
+		     		<span class="phone_time">&#40;9:00&ndash;23:00&#41;</span>
+		     	</p>
+		     	<p class="refund">退款、退换货、查看美团卷</p>
+		     	<p class="tutorials"><a href="">参考教程、轻松搞定！</a></p>
+		       </div>	
+		     </article>
+		</section>
+		
+		<section class="footer2 width1170">
+		     <img src="slices/14.footer2.png" alt="">
+		</section>
+		
+		<script src="js/header.js"></script>
+		<script src="js/logo.js"></script>
+		<script src="js/nav.js"></script>
+	</body>
+</html>

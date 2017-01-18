@@ -1,0 +1,165 @@
+            .logo {
+		    	height: 70px;
+		    	margin-bottom: 35px;
+		    }
+		
+		    .logo_left {
+		    	position:relative;
+		    	height: 70px;
+		    	margin: 15px 0 15px 0;
+		    }
+			 
+			 .meiTuan_logo img {
+			 	width: 83px;
+			 	height: 59px;	
+			 }
+			 
+			 
+			 .city {
+			 	margin: 7px;
+			 }
+			
+			 .city h2 a {
+			 	font-weight: 700px;
+			 	font-size: 18px;
+			 	color: #000;
+			 }
+			 
+			 .city_toggle {
+			 	border: 1px solid #ddd;
+			 	margin-top: 5px;
+			 	padding:2px 4px;
+			 	display: block;
+			 	color: #999;
+			 	background: #fff;
+			 	line-height: 15px;
+			 }
+			
+			.icon_trismall {
+				border:               4px solid transparent;
+	            border-top-color:     #666;
+	            width:                0;
+	            height:               0;
+	            display:              inline-block;
+	            position: absolute;
+				top: 18px;
+				right: 5px;
+			}
+			
+			.on .icon_trismall {/*更改三角形*/
+	            border:4px solid transparent;
+	            border-bottom-color:#666;
+	            top:13px;
+			}
+			
+			.search_box{
+				height: 70px;
+				width: 488px;
+				/*border: 1px solid #f00;*/
+				margin: 20px 0 10px 185px;
+				padding-bottom: 5px;
+			}
+			
+			.search {
+				height: 40px;
+				width: 484px;
+				border: 2px solid #2BB8AA;
+				position: relative;
+			}
+			
+			.groupbuy {
+				text-align: center;
+				position: relative;
+				font-size: 14px;
+				color: #666;
+			}
+			
+			.group1 {
+				width: 59px;
+				height: 40px;
+				line-height: 37px;
+				border-right: 1px solid #ddd; 
+				background: #fff;
+			}
+			
+			.group2 {
+				width: 58px;
+				height: 37px;
+				line-height: 37px;
+				border: 1px solid #ddd;
+				display: none;
+				border-top: none;
+				position: absolute; 
+				background: #fff;
+				top: 39px;
+			}
+			
+			.on .group2 {
+				display: block;
+			}
+			
+			.input1 {
+				width: 359px;
+				height: 37px;
+				outline:none;
+				border: none
+			}
+			
+			.input1:focus {
+				outline:none;
+			}
+			
+			.input2 {
+				width: 61px;
+				height: 40px;
+				background: #2BB8AA;
+				color: #fff;
+				border: none;
+			}
+			
+			input::-webkit-input-placeholder {
+                font-size: 14px;
+                padding-left: 3px;
+            }
+            
+            input:-moz-placeholder {
+                font-size: 14px;
+                padding-left: 3px;
+            }
+            
+            input::-moz-placeholder {
+                font-size: 14px;
+                padding-left: 3px;
+            }
+            
+            input:-ms-input-placeholder {
+                font-size: 14px;
+                padding-left: 3px;
+            }
+ 
+            .search_nav {
+            	width: 480px;
+            	height: 15px;
+            	line-height: 15px;
+            	margin-top: 10px;
+            }
+            
+            .search_nav li {
+            	float: left;
+            	margin: 0 10px;
+            }
+            
+            .sales_return {
+            	height: 45px;
+            	margin-top: 15px;
+            }
+            
+            .sales_return img {
+            	display: block;
+            	margin: 0 auto;
+            }
+            
+            .sales_return a {
+            	float: right;
+            	margin: 10px 15px;
+            }
