@@ -1,0 +1,157 @@
+.item_box {
+	border: 1px solid #eee;
+	text-align: center;
+	padding: 10px;
+	float: left;
+	margin-left: -1px;
+}
+
+.picture_title_link {
+	display: block;
+	cursor: pointer;
+	position: relative;
+}
+
+.picture_title_link img {
+	width: 260px;
+	height: 154px;
+}
+
+.multiple_packages {
+	background-image: url('../images/base.png');
+	background-repeat: no-repeat;
+	background-position: 0 -494px;
+	width: 43px;
+	height: 40px;
+	display: block;
+	position: absolute;
+	left: 0px;
+	top: -4px;
+}
+
+.drive_thru_service {
+	background-image: url('../images/base.png');
+	background-repeat: no-repeat;
+	background-position: 0 -451px;
+	width: 43px;
+	height: 40px;
+	display: block;
+	position: absolute;
+	left: 40px;
+	top: -4px;
+}
+
+
+/*头部的图片链接结束*/
+
+.item h3 {
+	margin-top: 20px;
+	color: #333;
+}
+
+.item h3 a {
+	font-size: 14px;
+	text-decoration: none;
+	display: block;
+	overflow: hidden;
+}
+
+.item h3 a:hover>span {
+	color: #333;
+}
+
+.xtitle {
+	color: #666;
+	display: block;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	text-align: left;
+}
+
+.short_title {
+	color: #999;
+	display: block;
+	font-weight: 400;
+	margin-bottom: 15px;
+	text-align: left;
+}
+
+.deal-tile__detail {
+	height: 24px;
+	line-height: 24px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #eee;
+	padding: 0 15px;
+	padding-bottom: 10px;
+}
+
+.real_price {
+	color: #f76120;
+	font-size: 20px;
+	font-weight: 400;
+	margin-right: 5px;
+	margin-left: -15px;
+}
+
+.store_price {
+	font-size: 12px;
+	color: #999;
+	margin-right: 5px;
+}
+
+.old_price {
+	font-size: 12px;
+	color: #999;
+	text-decoration: line-through;
+	margin-right: 5px;
+}
+
+.saled {
+	font-size: 12px;
+	color: #999;
+	margin-right: 10px;
+}
+
+
+/*价格结束*/
+
+.evaluated {
+	height: 45px;
+	line-height: 45px;
+	margin-right: 10px;
+}
+
+.evaluated_all {
+	font-size: 12px;
+	color: #999;
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.star_out {
+	background: url("../images/star.png") repeat-x;
+	width: 60px;
+	height: 12px;
+	display: inline-block;
+	line-height: 12px;
+	overflow: hidden;
+}
+
+.star_in {
+	background: url("../images/star-hover.png") repeat-x;
+	width: 48px;
+	height: 12px;
+	display: inline-block;
+	line-height: 12px;
+	overflow: hidden;
+	margin-left: -12px;
+}
+
+.famous-items img {
+	width: 206px;
+	height: 125px;
+}
+
+.famous-items>.item_box {
+	padding: 13px;
+}

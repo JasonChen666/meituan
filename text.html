@@ -9,9 +9,52 @@
 		<link rel="stylesheet" type="text/css" href="css/logo.css" />
 		<link rel="stylesheet" type="text/css" href="css/nav.css"  />
 		<link rel="stylesheet" type="text/css" href="css/links.css"  />
-		<link rel="stylesheet" type="text/css" href="css/footer1.css"  />
+		<link rel="stylesheet" type="text/css" href="css/footer1.css" />
+		<link rel="stylesheet" type="text/css" href="css/item.css" />
 		<style>
+		   .famous-top {
+		    	width: 380px;
+		    	height: 40px;
+		    	font-size: 20px;
+		    	color: #666;
+		    	line-height: 40px;
+		   	    text-align: center;	
+		   	    margin-bottom: 10px;
+		    }
+		    
+		   .shoppingrush {
+		   	    padding-left: 37px;
+		   	    background: url('images/clock.png') no-repeat;
+		   	    display: inline-block;
+		   }
 		   
+		   .rushtime {
+		   	margin-left: 10px;
+		   	display: inline-block;
+		   	border: 1px solid #eee;
+		   	border-radius: 10px;
+		   	padding: 0 6px 0 6px;
+		   	text-align: center;
+		   }
+		   
+		   .underway {
+		   	background: url('images/time-start.png') no-repeat;
+		   	width: 49px;
+		   	height: 28px;
+		   	vertical-align: middle;
+		   	display: inline-block;
+		   }
+		   
+		   .rushtime span{
+		   	background: url('images/time-bg.png') no-repeat;
+		   	width: 20px;
+		   	height: 28px;
+		   	vertical-align: middle;
+		   	color: #fff;
+		   	display: inline-block;
+		   	text-align: center;
+		   	line-height: 28px;
+		   }
 		</style>
 	</head>
 	<body>
@@ -392,7 +435,173 @@
 		<!--nav结束-->
 		
 		<section class="famous width1170">
-		     <img src="slices/4.famous.gif" alt="">
+		     <!--<img src="slices/4.famous.gif" alt="">-->
+		     <div class="famous-top">
+		     	    <span class="shoppingrush f-l">名店抢购</span>
+		     		<div class="rushtime f-l" id="rushtimer">
+		     		 <i class="underway"></i>
+		     		 <span>1</span>
+		     		 <span>2</span>
+		     		 <i>:</i>
+		     		 <span>0</span>
+		     		 <span>0</span>
+		     		 <i>:</i>
+		     		 <span>0</span>
+		     		 <span>0</span>
+		     	    </div>
+		     </div>
+		     <div class="famous-items">
+		     	<div class="item_box">
+		        <div class="item">
+				<a class="picture_title_link">
+					<img src="images/food-pic10.jpg" alt="图片链接"/>
+					<i class="multiple_packages"></i>
+					<i class="drive_thru_service"></i>
+				</a>
+				<h3>
+					<a href="">
+						<span class="xtitle">【5店通用】新石器烤肉</span>
+						<span class="short_title">人气肉类组合套餐，提供免费WiFi</span>
+					</a>
+				</h3>
+				<p class="deal-tile__detail">
+					<span class="real_price f-l">&yen;99</span>
+					<span class="store_price f-l">门店价</span>
+					<span class="old_price f-l">&yen;120</span>
+					<span class="saled f-r">已售10031</span>
+				</p>
+				<p class="evaluated">
+					<a href="" class="f-r">
+					<span class="star_out">
+		    		 <span class="star_in">	
+		    		 </span>
+		    	    </span>
+					<span class="evaluated_all">640人评价</span>
+					</a>
+				</p>
+			    </div>
+		        </div>
+		        <div class="item_box">
+		        <div class="item">
+				<a class="picture_title_link">
+					<img src="images/food-pic10.jpg" alt="图片链接"/>
+					<i class="multiple_packages"></i>
+					<i class="drive_thru_service"></i>
+				</a>
+				<h3>
+					<a href="">
+						<span class="xtitle">【5店通用】新石器烤肉</span>
+						<span class="short_title">人气肉类组合套餐，提供免费WiFi</span>
+					</a>
+				</h3>
+				<p class="deal-tile__detail">
+					<span class="real_price f-l">&yen;99</span>
+					<span class="store_price f-l">门店价</span>
+					<span class="old_price f-l">&yen;120</span>
+					<span class="saled f-r">已售10031</span>
+				</p>
+				<p class="evaluated">
+					<a href="" class="f-r">
+					<span class="star_out">
+		    		 <span class="star_in">	
+		    		 </span>
+		    	    </span>
+					<span class="evaluated_all">640人评价</span>
+					</a>
+				</p>
+			    </div>
+		        </div>
+		        <div class="item_box">
+		        <div class="item">
+				<a class="picture_title_link">
+					<img src="images/food-pic10.jpg" alt="图片链接"/>
+					<i class="multiple_packages"></i>
+					<i class="drive_thru_service"></i>
+				</a>
+				<h3>
+					<a href="">
+						<span class="xtitle">【5店通用】新石器烤肉</span>
+						<span class="short_title">人气肉类组合套餐，提供免费WiFi</span>
+					</a>
+				</h3>
+				<p class="deal-tile__detail">
+					<span class="real_price f-l">&yen;99</span>
+					<span class="store_price f-l">门店价</span>
+					<span class="old_price f-l">&yen;120</span>
+					<span class="saled f-r">已售10031</span>
+				</p>
+				<p class="evaluated">
+					<a href="" class="f-r">
+					<span class="star_out">
+		    		 <span class="star_in">	
+		    		 </span>
+		    	    </span>
+					<span class="evaluated_all">640人评价</span>
+					</a>
+				</p>
+			    </div>
+		        </div>
+		        <div class="item_box">
+		        <div class="item">
+				<a class="picture_title_link">
+					<img src="images/food-pic10.jpg" alt="图片链接"/>
+					<i class="multiple_packages"></i>
+					<i class="drive_thru_service"></i>
+				</a>
+				<h3>
+					<a href="">
+						<span class="xtitle">【5店通用】新石器烤肉</span>
+						<span class="short_title">人气肉类组合套餐，提供免费WiFi</span>
+					</a>
+				</h3>
+				<p class="deal-tile__detail">
+					<span class="real_price f-l">&yen;99</span>
+					<span class="store_price f-l">门店价</span>
+					<span class="old_price f-l">&yen;120</span>
+					<span class="saled f-r">已售10031</span>
+				</p>
+				<p class="evaluated">
+					<a href="" class="f-r">
+					<span class="star_out">
+		    		 <span class="star_in">	
+		    		 </span>
+		    	    </span>
+					<span class="evaluated_all">640人评价</span>
+					</a>
+				</p>
+			    </div>
+		        </div>
+		        <div class="item_box">
+		        <div class="item">
+				<a class="picture_title_link">
+					<img src="images/food-pic10.jpg" alt="图片链接"/>
+					<i class="multiple_packages"></i>
+					<i class="drive_thru_service"></i>
+				</a>
+				<h3>
+					<a href="">
+						<span class="xtitle">【5店通用】新石器烤肉</span>
+						<span class="short_title">人气肉类组合套餐，提供免费WiFi</span>
+					</a>
+				</h3>
+				<p class="deal-tile__detail">
+					<span class="real_price f-l">&yen;99</span>
+					<span class="store_price f-l">门店价</span>
+					<span class="old_price f-l">&yen;120</span>
+					<span class="saled f-r">已售10031</span>
+				</p>
+				<p class="evaluated">
+					<a href="" class="f-r">
+					<span class="star_out">
+		    		 <span class="star_in">	
+		    		 </span>
+		    	    </span>
+					<span class="evaluated_all">640人评价</span>
+					</a>
+				</p>
+			    </div>
+		        </div>
+		     </div>
 		</section>
 		
 		<section class="food width1170">
@@ -514,5 +723,6 @@
 		<script src="js/header.js"></script>
 		<script src="js/logo.js"></script>
 		<script src="js/nav.js"></script>
+		<script src="js/famous-timer.js"></script>
 	</body>
 </html>
