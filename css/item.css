@@ -1,9 +1,9 @@
 .item_box {
 	border: 1px solid #eee;
+	border-right,border-top: none;
 	text-align: center;
-	padding: 10px;
+	padding: 10px 10px 10px 15px;
 	float: left;
-	margin-left: -1px;
 }
 
 .picture_title_link {
@@ -153,5 +153,5 @@
 }
 
 .famous-items>.item_box {
-	padding: 13px;
+	padding: 12px;
 }

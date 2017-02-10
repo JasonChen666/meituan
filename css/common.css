@@ -78,3 +78,7 @@ a:hover {
 .t_lt {
 	text-decoration: line-through;
 }
+
+.clearfix {   /*用于清除父级元素因子元素浮动而产生的高度为0的情况 */
+	overflow: hidden;
+}

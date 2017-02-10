@@ -11,50 +11,143 @@
 		<link rel="stylesheet" type="text/css" href="css/links.css"  />
 		<link rel="stylesheet" type="text/css" href="css/footer1.css" />
 		<link rel="stylesheet" type="text/css" href="css/item.css" />
+		<link rel="stylesheet" type="text/css" href="css/famous.css" />
 		<style>
-		   .famous-top {
-		    	width: 380px;
-		    	height: 40px;
-		    	font-size: 20px;
-		    	color: #666;
-		    	line-height: 40px;
-		   	    text-align: center;	
-		   	    margin-bottom: 10px;
-		    }
-		    
-		   .shoppingrush {
-		   	    padding-left: 37px;
-		   	    background: url('images/clock.png') no-repeat;
-		   	    display: inline-block;
-		   }
+		  .nav_middleall {
+		  	width: 727px;
+		  	height: 478px;
+		  	display: inline-block;
+		  	z-index: -1;
+		  	position: relative;
+		  }
+		  .nav_middle {
+		  	height: 160px;
+		  }
+		  
+		  .nav_middle li {
+		  	border-bottom: 1px solid #ddd;
+		  	margin-left: 15px;
+		  	margin-right: 15px;
+		  }
+		  
+		  .nav_middle span {
+		  	height: 52px;
+		  	line-height: 52px;
+		  	margin-left: 20px;
+		  	display: inline-block;
+		  }
+		  
+		  .middle_services {
+		  	color: #999;
+		  	background: url("images/hot-groupbuy.png") no-repeat 0 16px;
+		  	padding-left: 20px;
+		  }
+		  
+		  .middle_services2 {
+		  	color: #999;
+		  	background: url("images/hot-position.png") no-repeat 0 16px;
+		  	padding-left: 20px;
+		  }
+		  
+		  .middle_services3 {
+		  	color: #999;
+		  	background: url("images/hot-area.png") no-repeat 0 16px;
+		  	padding-left: 20px;
+		  }
+		  
+		  .nav_shuffling_figure {
+		  	width: 729px;
+		  	height: 317px;
+		  	position: relative;
+		  	margin-left: 8px;
+		  	overflow: hidden;
+		  }
+		  
+		  .nav_shuffling_figureul {
+		  	width: 4374px;/*729*5*/
+		  	height: 317px;
+		  	position: absolute;
+		  }
 		   
-		   .rushtime {
-		   	margin-left: 10px;
-		   	display: inline-block;
-		   	border: 1px solid #eee;
-		   	border-radius: 10px;
-		   	padding: 0 6px 0 6px;
-		   	text-align: center;
-		   }
-		   
-		   .underway {
-		   	background: url('images/time-start.png') no-repeat;
-		   	width: 49px;
-		   	height: 28px;
-		   	vertical-align: middle;
-		   	display: inline-block;
-		   }
-		   
-		   .rushtime span{
-		   	background: url('images/time-bg.png') no-repeat;
-		   	width: 20px;
-		   	height: 28px;
-		   	vertical-align: middle;
-		   	color: #fff;
-		   	display: inline-block;
-		   	text-align: center;
-		   	line-height: 28px;
-		   }
+		  .nav_shuffling_figureul li {
+		  	display: inline-block;
+		  	width: 729px;
+		  	height: 317px;
+		  }
+		  
+		  .nav_pic {
+		  	width: 344px;
+		  	height: 317px;
+		  	display: inline-block;
+		  	border-right: 1px solid #ddd;
+		  }
+		  
+		  .nav_pic_img {
+		  	display: block;
+		  	margin-top: 10px;
+		  }
+		  
+		  .nav_pic_img2 {
+		  	display: block;
+		  	margin-top: 10px;
+		  	margin-left: 5px;
+		  }
+		  
+		  .nav_pic2 {
+		  	width: 344px;
+		  	height: 317px;
+		  	display: inline-block;
+		  }
+		  
+		  .nav_pic img {
+		  	width: 333px;
+		  	height: 232px;
+		  }
+		  
+		  .nav_pic2 img {
+		  	width: 333px;
+		  	height: 232px;
+		  }
+		  
+		  .nav_shop {
+		  	width: 333px;
+		  	margin-top: 20px;
+		  }
+		  
+		  .nav_introduce {
+		  	width: 224px;
+		  	border-right: 1px solid #ddd;
+		  }
+		  .nav_introduce_p1 {
+		  	display: block;
+            width: 214px;
+            font-size: 14px;
+            font-weight: 700;
+            color: #666;
+            text-overflow: ellipsis;
+            overflow: hidden;
+		  	white-space: nowrap;
+		  }
+		  
+		  .nav_introduce_p2 {
+		  	color: #999;
+		  	margin-top: 4px;
+		  	text-overflow: ellipsis;
+		  	width: 214px;
+            overflow: hidden;
+            white-space: nowrap;
+		  	font-size: 12px;
+		  	height: 20px;
+		  	line-height: 20px;
+		  }
+		  
+		  .nav_price {
+		  	font-size: 30px;
+		  	color: #f76120;
+		  	padding-left: 24px;
+		  	height: 40px;
+		  	margin-right: 0px;
+		  }
 		</style>
 	</head>
 	<body>
@@ -212,8 +305,8 @@
 		     		<li><a href="">名店抢购</a></li>
 		     	</ul>
 		     </header>
-		     <section class="nav_allitem" id="nav_all">
-		     	<ul class="nav_item f-l">
+		     <section class="nav_allitem clearfix" >
+		     	<ul class="nav_item f-l clearfix" id="nav_all">
 		     		<li>
 		     			<span class="f-l item_left"><a href="">美食</a></span>
 		     			<i class="arrow_right" id="arr"></i>
@@ -254,7 +347,7 @@
 		     			    <dd><a href="">西北菜</a></dd>
 		     			    <dd><a href="">中式烧烤</a></dd>
 		     		       </dl>
-		     	          </div>
+		     	        </div>
 		     		</li>
 		     		<li>
 		     			<i class="arrow_right"></i>
@@ -429,14 +522,188 @@
 		     		     </dl>
 		     	        </div>
 		     		</li>
-		     	</ul>	
+		     	</ul>
+		     	 <article class="nav_middleall f-l">
+		     	   <ul class="nav_middle f-l">
+		     	   	 <li>
+		     	   	 	<span class="middle_services">热门团购</span>
+		     	   	 		<span href="#"><a href="#">代金券</a></span>
+		     	   	 		<span href="#"><a href="#">自助餐</a></span>
+		     	   	 		<span href="#"><a href="#">江浙菜</a></span>
+		     	   	 		<span href="#"><a href="#">小吃快餐</a></span>
+		     	   	 		<span href="#"><a href="#">烧烤烤肉</a></span>
+		     	   	 		<span href="#"><a href="#">火锅</a></span>
+		     	   	 		<span href="#"><a href="#">海鲜</a></span>
+		     	   	 		<span href="#"><a href="#">聚餐宴请</a></span>
+		     	   	 		<span href="#"><a href="#">洗浴/汗蒸</a></span>
+		     	   	 </li>
+		     	   	 <li>
+		     	   	 	<span class="middle_services2">全部区域</span>
+		     	   	 		<span href="#"><a href="#">南湖区</a></span>
+		     	   	 		<span href="#"><a href="#">秀洲区</a></span>
+		     	   	 		<span href="#"><a href="#">海宁市</a></span>
+		     	   	 		<span href="#"><a href="#">嘉善县</a></span>
+		     	   	 		<span href="#"><a href="#">桐乡市</a></span>
+		     	   	 		<span href="#"><a href="#">平湖市</a></span>
+		     	   	 		<span href="#"><a href="#">海盐县</a></span>
+		     	   	 </li>
+		     	   	 <li>
+		     	   	 	<span class="middle_services3">热门商圈</span>
+		     	   	 		<span href="#"><a href="#">梅湾街</a></span>
+		     	   	 		<span href="#"><a href="#">江南摩尔</a></span>
+		     	   	 		<span href="#"><a href="#">中港城</a></span>
+		     	   	 		<span href="#"><a href="#">火车站</a></span>
+		     	   	 		<span href="#"><a href="#">长安镇</a></span>
+		     	   	 		<span href="#"><a href="#">乌镇</a></span>
+		     	   	 		<span href="#"><a href="#">西塘景区</a></span>
+		     	   	 		<span href="#"><a href="#">西塘</a></span>
+		     	   	 		<span href="#"><a href="#">银泰城</a></span>
+		     	   	 		<span href="#"><a href="#">少年路</a></span>
+		     	   	 </li>
+		     	   </ul>
+		     	   <div class="nav_shuffling_figure f-l">
+		     	     <ul class="nav_shuffling_figureul"  id="shuffling_ul">
+		     	       <li>
+		     	         <div class="nav_pic">
+		     	         	<a class="nav_pic_img">
+		     	         		<img src="images/entertainment-pic7.jpg" alt="">
+		     	         	</a>
+		     	         	<div class="nav_shop clearfix">
+		     	         		<div class="nav_introduce f-l">
+		     	         		  <a class="nav_introduce_p1">阿是拌饭</a>
+		     	         		  <p class="nav_introduce_p2">榴莲千层2选1，建议单人使用，提供免费WiFi</p>
+		     	         		</div>
+		     	         		<p class="nav_price f-r">&yen;88</p>
+		     	         	</div>
+		     	         </div>
+		     	       	 <div class="nav_pic2">
+		     	         	<a class="nav_pic_img2">
+		     	         		<img src="images/entertainment-pic11.jpg" alt="">
+		     	         	</a>
+		     	         	<div class="nav_shop clearfix">
+		     	         		<div class="nav_introduce f-l">
+		     	         		  <a class="nav_introduce_p1">阿是拌饭</a>
+		     	         		  <p class="nav_introduce_p2">榴莲千层2选1，建议单人使用，提供免费WiFi</p>
+		     	         		</div>
+		     	         		<p class="nav_price f-r">&yen;1</p>
+		     	         	</div>
+		     	         </div>
+		     	       </li>
+		     	       <li>
+		     	         <div class="nav_pic">
+		     	         	<a class="nav_pic_img">
+		     	         		<img src="images/food-pic20.jpg" alt="">
+		     	         	</a>
+		     	         	<div class="nav_shop clearfix">
+		     	         		<div class="nav_introduce f-l">
+		     	         		  <a class="nav_introduce_p1">阿是拌饭</a>
+		     	         		  <p class="nav_introduce_p2">榴莲千层2选1，建议单人使用，提供免费WiFi</p>
+		     	         		</div>
+		     	         		<p class="nav_price f-r">&yen;2</p>
+		     	         	</div>
+		     	         </div>
+		     	       	 <div class="nav_pic2">
+		     	         	<a class="nav_pic_img2">
+		     	         		<img src="images/food-pic6.jpg" alt="">
+		     	         	</a>
+		     	         	<div class="nav_shop clearfix">
+		     	         		<div class="nav_introduce f-l">
+		     	         		  <a class="nav_introduce_p1">阿是拌饭</a>
+		     	         		  <p class="nav_introduce_p2">榴莲千层2选1，建议单人使用，提供免费WiFi</p>
+		     	         		</div>
+		     	         		<p class="nav_price f-r">&yen;88</p>
+		     	         	</div>
+		     	         </div>
+		     	       </li>
+		     	       <li>
+		     	         <div class="nav_pic">
+		     	         	<a class="nav_pic_img">
+		     	         		<img src="images/entertainment-pic8.jpg" alt="">
+		     	         	</a>
+		     	         	<div class="nav_shop clearfix">
+		     	         		<div class="nav_introduce f-l">
+		     	         		  <a class="nav_introduce_p1">阿是拌饭</a>
+		     	         		  <p class="nav_introduce_p2">榴莲千层2选1，建议单人使用，提供免费WiFi</p>
+		     	         		</div>
+		     	         		<p class="nav_price f-r">&yen;3</p>
+		     	         	</div>
+		     	         </div>
+		     	       	 <div class="nav_pic2">
+		     	         	<a class="nav_pic_img2">
+		     	         		<img src="images/food-pic7.jpg" alt="">
+		     	         	</a>
+		     	         	<div class="nav_shop clearfix">
+		     	         		<div class="nav_introduce f-l">
+		     	         		  <a class="nav_introduce_p1">阿是拌饭</a>
+		     	         		  <p class="nav_introduce_p2">榴莲千层2选1，建议单人使用，提供免费WiFi</p>
+		     	         		</div>
+		     	         		<p class="nav_price f-r">&yen;88</p>
+		     	         	</div>
+		     	         </div>
+		     	       </li>
+		     	       <li>
+		     	         <div class="nav_pic">
+		     	         	<a class="nav_pic_img">
+		     	         		<img src="images/entertainment-pic9.jpg" alt="">
+		     	         	</a>
+		     	         	<div class="nav_shop clearfix">
+		     	         		<div class="nav_introduce f-l">
+		     	         		  <a class="nav_introduce_p1">阿是拌饭</a>
+		     	         		  <p class="nav_introduce_p2">榴莲千层2选1，建议单人使用，提供免费WiFi</p>
+		     	         		</div>
+		     	         		<p class="nav_price f-r">&yen;4</p>
+		     	         	</div>
+		     	         </div>
+		     	       	 <div class="nav_pic2">
+		     	         	<a class="nav_pic_img2">
+		     	         		<img src="images/food-pic17.jpg" alt="">
+		     	         	</a>
+		     	         	<div class="nav_shop clearfix">
+		     	         		<div class="nav_introduce f-l">
+		     	         		  <a class="nav_introduce_p1">阿是拌饭</a>
+		     	         		  <p class="nav_introduce_p2">榴莲千层2选1，建议单人使用，提供免费WiFi</p>
+		     	         		</div>
+		     	         		<p class="nav_price f-r">&yen;88</p>
+		     	         	</div>
+		     	         </div>
+		     	       </li>
+		     	       <li>
+		     	         <div class="nav_pic">
+		     	         	<a class="nav_pic_img">
+		     	         		<img src="images/entertainment-pic7.jpg" alt="">
+		     	         	</a>
+		     	         	<div class="nav_shop clearfix">
+		     	         		<div class="nav_introduce f-l">
+		     	         		  <a class="nav_introduce_p1">阿是拌饭</a>
+		     	         		  <p class="nav_introduce_p2">榴莲千层2选1，建议单人使用，提供免费WiFi</p>
+		     	         		</div>
+		     	         		<p class="nav_price f-r">&yen;1</p>
+		     	         	</div>
+		     	         </div>
+		     	       	 <div class="nav_pic2">
+		     	         	<a class="nav_pic_img2">
+		     	         		<img src="images/entertainment-pic11.jpg" alt="">
+		     	         	</a>
+		     	         	<div class="nav_shop clearfix">
+		     	         		<div class="nav_introduce f-l">
+		     	         		  <a class="nav_introduce_p1">阿是拌饭</a>
+		     	         		  <p class="nav_introduce_p2">榴莲千层2选1，建议单人使用，提供免费WiFi</p>
+		     	         		</div>
+		     	         		<p class="nav_price f-r">&yen;88</p>
+		     	         	</div>
+		     	         </div>
+		     	       </li>
+		     	     </ul>
+		     	   </div>
+		         </article>
 		     </section>
+		    
 		</nav>
 		<!--nav结束-->
 		
 		<section class="famous width1170">
 		     <!--<img src="slices/4.famous.gif" alt="">-->
-		     <div class="famous-top">
+		     <div class="famous-top clearfix">
 		     	    <span class="shoppingrush f-l">名店抢购</span>
 		     		<div class="rushtime f-l" id="rushtimer">
 		     		 <i class="underway"></i>
@@ -450,157 +717,617 @@
 		     		 <span>0</span>
 		     	    </div>
 		     </div>
-		     <div class="famous-items">
-		     	<div class="item_box">
-		        <div class="item">
-				<a class="picture_title_link">
-					<img src="images/food-pic10.jpg" alt="图片链接"/>
-					<i class="multiple_packages"></i>
-					<i class="drive_thru_service"></i>
-				</a>
-				<h3>
-					<a href="">
-						<span class="xtitle">【5店通用】新石器烤肉</span>
-						<span class="short_title">人气肉类组合套餐，提供免费WiFi</span>
-					</a>
-				</h3>
-				<p class="deal-tile__detail">
-					<span class="real_price f-l">&yen;99</span>
-					<span class="store_price f-l">门店价</span>
-					<span class="old_price f-l">&yen;120</span>
-					<span class="saled f-r">已售10031</span>
-				</p>
-				<p class="evaluated">
-					<a href="" class="f-r">
-					<span class="star_out">
-		    		 <span class="star_in">	
-		    		 </span>
-		    	    </span>
-					<span class="evaluated_all">640人评价</span>
-					</a>
-				</p>
-			    </div>
-		        </div>
-		        <div class="item_box">
-		        <div class="item">
-				<a class="picture_title_link">
-					<img src="images/food-pic10.jpg" alt="图片链接"/>
-					<i class="multiple_packages"></i>
-					<i class="drive_thru_service"></i>
-				</a>
-				<h3>
-					<a href="">
-						<span class="xtitle">【5店通用】新石器烤肉</span>
-						<span class="short_title">人气肉类组合套餐，提供免费WiFi</span>
-					</a>
-				</h3>
-				<p class="deal-tile__detail">
-					<span class="real_price f-l">&yen;99</span>
-					<span class="store_price f-l">门店价</span>
-					<span class="old_price f-l">&yen;120</span>
-					<span class="saled f-r">已售10031</span>
-				</p>
-				<p class="evaluated">
-					<a href="" class="f-r">
-					<span class="star_out">
-		    		 <span class="star_in">	
-		    		 </span>
-		    	    </span>
-					<span class="evaluated_all">640人评价</span>
-					</a>
-				</p>
-			    </div>
-		        </div>
-		        <div class="item_box">
-		        <div class="item">
-				<a class="picture_title_link">
-					<img src="images/food-pic10.jpg" alt="图片链接"/>
-					<i class="multiple_packages"></i>
-					<i class="drive_thru_service"></i>
-				</a>
-				<h3>
-					<a href="">
-						<span class="xtitle">【5店通用】新石器烤肉</span>
-						<span class="short_title">人气肉类组合套餐，提供免费WiFi</span>
-					</a>
-				</h3>
-				<p class="deal-tile__detail">
-					<span class="real_price f-l">&yen;99</span>
-					<span class="store_price f-l">门店价</span>
-					<span class="old_price f-l">&yen;120</span>
-					<span class="saled f-r">已售10031</span>
-				</p>
-				<p class="evaluated">
-					<a href="" class="f-r">
-					<span class="star_out">
-		    		 <span class="star_in">	
-		    		 </span>
-		    	    </span>
-					<span class="evaluated_all">640人评价</span>
-					</a>
-				</p>
-			    </div>
-		        </div>
-		        <div class="item_box">
-		        <div class="item">
-				<a class="picture_title_link">
-					<img src="images/food-pic10.jpg" alt="图片链接"/>
-					<i class="multiple_packages"></i>
-					<i class="drive_thru_service"></i>
-				</a>
-				<h3>
-					<a href="">
-						<span class="xtitle">【5店通用】新石器烤肉</span>
-						<span class="short_title">人气肉类组合套餐，提供免费WiFi</span>
-					</a>
-				</h3>
-				<p class="deal-tile__detail">
-					<span class="real_price f-l">&yen;99</span>
-					<span class="store_price f-l">门店价</span>
-					<span class="old_price f-l">&yen;120</span>
-					<span class="saled f-r">已售10031</span>
-				</p>
-				<p class="evaluated">
-					<a href="" class="f-r">
-					<span class="star_out">
-		    		 <span class="star_in">	
-		    		 </span>
-		    	    </span>
-					<span class="evaluated_all">640人评价</span>
-					</a>
-				</p>
-			    </div>
-		        </div>
-		        <div class="item_box">
-		        <div class="item">
-				<a class="picture_title_link">
-					<img src="images/food-pic10.jpg" alt="图片链接"/>
-					<i class="multiple_packages"></i>
-					<i class="drive_thru_service"></i>
-				</a>
-				<h3>
-					<a href="">
-						<span class="xtitle">【5店通用】新石器烤肉</span>
-						<span class="short_title">人气肉类组合套餐，提供免费WiFi</span>
-					</a>
-				</h3>
-				<p class="deal-tile__detail">
-					<span class="real_price f-l">&yen;99</span>
-					<span class="store_price f-l">门店价</span>
-					<span class="old_price f-l">&yen;120</span>
-					<span class="saled f-r">已售10031</span>
-				</p>
-				<p class="evaluated">
-					<a href="" class="f-r">
-					<span class="star_out">
-		    		 <span class="star_in">	
-		    		 </span>
-		    	    </span>
-					<span class="evaluated_all">640人评价</span>
-					</a>
-				</p>
-			    </div>
-		        </div>
+		     <div class="famous-items clearfix">
+		     	<ul id="itemlistul">
+		          <li>
+		     	    <div class="item_box">
+		              <div class="item">
+				        <a class="picture_title_link">
+					      <img src="images/food-pic10.jpg" alt="图片链接"/>
+					      <i class="multiple_packages"></i>
+					      <i class="drive_thru_service"></i>
+				        </a>
+				        <h3>
+					      <a href="">
+						    <span class="xtitle">【5店通用】新石器烤肉1</span>
+						    <span class="short_title">人气肉类组合套餐，提供免费WiFi</span>
+					      </a>
+				        </h3>
+				        <p class="deal-tile__detail">
+					      <span class="real_price f-l">&yen;99</span>
+					      <span class="store_price f-l">门店价</span>
+					      <span class="old_price f-l">&yen;120</span>
+					      <span class="saled f-r">已售10031</span>
+				        </p>
+				        <p class="evaluated">
+					      <a href="" class="f-r">
+					        <span class="star_out">
+		    		          <span class="star_in">	
+		    		          </span>
+		    	            </span>
+					        <span class="evaluated_all">640人评价</span>
+					      </a>
+				        </p>
+			          </div>
+		             </div>
+		            <div class="item_box">
+		              <div class="item">
+				        <a class="picture_title_link">
+					      <img src="images/food-pic10.jpg" alt="图片链接"/>
+					      <i class="multiple_packages"></i>
+					      <i class="drive_thru_service"></i>
+				        </a>
+				        <h3>
+					      <a href="">
+						    <span class="xtitle">【5店通用】新石器烤肉</span>
+						    <span class="short_title">人气肉类组合套餐，提供免费WiFi</span>
+					      </a>
+				        </h3>
+				        <p class="deal-tile__detail">
+					      <span class="real_price f-l">&yen;99</span>
+					      <span class="store_price f-l">门店价</span>
+					      <span class="old_price f-l">&yen;120</span>
+					      <span class="saled f-r">已售10031</span>
+				        </p>
+				        <p class="evaluated">
+					      <a href="" class="f-r">
+					        <span class="star_out">
+		    		          <span class="star_in">	
+		    		          </span>
+		    	            </span>
+					        <span class="evaluated_all">640人评价</span>
+					      </a>
+				        </p>
+			          </div>
+		             </div>
+		            <div class="item_box">
+		              <div class="item">
+				        <a class="picture_title_link">
+					      <img src="images/food-pic10.jpg" alt="图片链接"/>
+					      <i class="multiple_packages"></i>
+					      <i class="drive_thru_service"></i>
+				        </a>
+				        <h3>
+					      <a href="">
+						    <span class="xtitle">【5店通用】新石器烤肉</span>
+						    <span class="short_title">人气肉类组合套餐，提供免费WiFi</span>
+					      </a>
+				        </h3>
+				        <p class="deal-tile__detail">
+					      <span class="real_price f-l">&yen;99</span>
+					      <span class="store_price f-l">门店价</span>
+					      <span class="old_price f-l">&yen;120</span>
+					      <span class="saled f-r">已售10031</span>
+				        </p>
+				        <p class="evaluated">
+					      <a href="" class="f-r">
+					        <span class="star_out">
+		    		          <span class="star_in">	
+		    		          </span>
+		    	            </span>
+					        <span class="evaluated_all">640人评价</span>
+					      </a>
+				        </p>
+			          </div>
+		             </div>
+		            <div class="item_box">
+		              <div class="item">
+				        <a class="picture_title_link">
+					      <img src="images/food-pic10.jpg" alt="图片链接"/>
+					      <i class="multiple_packages"></i>
+					      <i class="drive_thru_service"></i>
+				        </a>
+				        <h3>
+					      <a href="">
+						    <span class="xtitle">【5店通用】新石器烤肉</span>
+						    <span class="short_title">人气肉类组合套餐，提供免费WiFi</span>
+					      </a>
+				        </h3>
+				        <p class="deal-tile__detail">
+					      <span class="real_price f-l">&yen;99</span>
+					      <span class="store_price f-l">门店价</span>
+					      <span class="old_price f-l">&yen;120</span>
+					      <span class="saled f-r">已售10031</span>
+				        </p>
+				        <p class="evaluated">
+					      <a href="" class="f-r">
+					        <span class="star_out">
+		    		          <span class="star_in">	
+		    		          </span>
+		    	            </span>
+					        <span class="evaluated_all">640人评价</span>
+					      </a>
+				        </p>
+			          </div>
+		             </div>
+		            <div class="item_box">
+		              <div class="item">
+				        <a class="picture_title_link">
+					      <img src="images/food-pic10.jpg" alt="图片链接"/>
+					      <i class="multiple_packages"></i>
+					      <i class="drive_thru_service"></i>
+				        </a>
+				        <h3>
+					      <a href="">
+						    <span class="xtitle">【5店通用】新石器烤肉</span>
+						    <span class="short_title">人气肉类组合套餐，提供免费WiFi</span>
+					      </a>
+				        </h3>
+				        <p class="deal-tile__detail">
+					      <span class="real_price f-l">&yen;99</span>
+					      <span class="store_price f-l">门店价</span>
+					      <span class="old_price f-l">&yen;120</span>
+					      <span class="saled f-r">已售10031</span>
+				        </p>
+				        <p class="evaluated">
+					      <a href="" class="f-r">
+					        <span class="star_out">
+		    		          <span class="star_in">	
+		    		          </span>
+		    	            </span>
+					        <span class="evaluated_all">640人评价</span>
+					      </a>
+				        </p>
+			          </div>
+		             </div>
+		          </li>
+		          <li>
+		     	    <div class="item_box">
+		              <div class="item">
+				        <a class="picture_title_link">
+					      <img src="images/food-pic10.jpg" alt="图片链接"/>
+					      <i class="multiple_packages"></i>
+					      <i class="drive_thru_service"></i>
+				        </a>
+				        <h3>
+					      <a href="">
+						    <span class="xtitle">【5店通用】新石器烤肉2</span>
+						    <span class="short_title">人气肉类组合套餐，提供免费WiFi</span>
+					      </a>
+				        </h3>
+				        <p class="deal-tile__detail">
+					      <span class="real_price f-l">&yen;99</span>
+					      <span class="store_price f-l">门店价</span>
+					      <span class="old_price f-l">&yen;120</span>
+					      <span class="saled f-r">已售10031</span>
+				        </p>
+				        <p class="evaluated">
+					      <a href="" class="f-r">
+					        <span class="star_out">
+		    		          <span class="star_in">	
+		    		          </span>
+		    	            </span>
+					        <span class="evaluated_all">640人评价</span>
+					      </a>
+				        </p>
+			          </div>
+		             </div>
+		            <div class="item_box">
+		              <div class="item">
+				        <a class="picture_title_link">
+					      <img src="images/food-pic10.jpg" alt="图片链接"/>
+					      <i class="multiple_packages"></i>
+					      <i class="drive_thru_service"></i>
+				        </a>
+				        <h3>
+					      <a href="">
+						    <span class="xtitle">【5店通用】新石器烤肉</span>
+						    <span class="short_title">人气肉类组合套餐，提供免费WiFi</span>
+					      </a>
+				        </h3>
+				        <p class="deal-tile__detail">
+					      <span class="real_price f-l">&yen;99</span>
+					      <span class="store_price f-l">门店价</span>
+					      <span class="old_price f-l">&yen;120</span>
+					      <span class="saled f-r">已售10031</span>
+				        </p>
+				        <p class="evaluated">
+					      <a href="" class="f-r">
+					        <span class="star_out">
+		    		          <span class="star_in">	
+		    		          </span>
+		    	            </span>
+					        <span class="evaluated_all">640人评价</span>
+					      </a>
+				        </p>
+			          </div>
+		             </div>
+		            <div class="item_box">
+		              <div class="item">
+				        <a class="picture_title_link">
+					      <img src="images/food-pic10.jpg" alt="图片链接"/>
+					      <i class="multiple_packages"></i>
+					      <i class="drive_thru_service"></i>
+				        </a>
+				        <h3>
+					      <a href="">
+						    <span class="xtitle">【5店通用】新石器烤肉</span>
+						    <span class="short_title">人气肉类组合套餐，提供免费WiFi</span>
+					      </a>
+				        </h3>
+				        <p class="deal-tile__detail">
+					      <span class="real_price f-l">&yen;99</span>
+					      <span class="store_price f-l">门店价</span>
+					      <span class="old_price f-l">&yen;120</span>
+					      <span class="saled f-r">已售10031</span>
+				        </p>
+				        <p class="evaluated">
+					      <a href="" class="f-r">
+					        <span class="star_out">
+		    		          <span class="star_in">	
+		    		          </span>
+		    	            </span>
+					        <span class="evaluated_all">640人评价</span>
+					      </a>
+				        </p>
+			          </div>
+		             </div>
+		            <div class="item_box">
+		              <div class="item">
+				        <a class="picture_title_link">
+					      <img src="images/food-pic10.jpg" alt="图片链接"/>
+					      <i class="multiple_packages"></i>
+					      <i class="drive_thru_service"></i>
+				        </a>
+				        <h3>
+					      <a href="">
+						    <span class="xtitle">【5店通用】新石器烤肉</span>
+						    <span class="short_title">人气肉类组合套餐，提供免费WiFi</span>
+					      </a>
+				        </h3>
+				        <p class="deal-tile__detail">
+					      <span class="real_price f-l">&yen;99</span>
+					      <span class="store_price f-l">门店价</span>
+					      <span class="old_price f-l">&yen;120</span>
+					      <span class="saled f-r">已售10031</span>
+				        </p>
+				        <p class="evaluated">
+					      <a href="" class="f-r">
+					        <span class="star_out">
+		    		          <span class="star_in">	
+		    		          </span>
+		    	            </span>
+					        <span class="evaluated_all">640人评价</span>
+					      </a>
+				        </p>
+			          </div>
+		             </div>
+		            <div class="item_box">
+		              <div class="item">
+				        <a class="picture_title_link">
+					      <img src="images/food-pic10.jpg" alt="图片链接"/>
+					      <i class="multiple_packages"></i>
+					      <i class="drive_thru_service"></i>
+				        </a>
+				        <h3>
+					      <a href="">
+						    <span class="xtitle">【5店通用】新石器烤肉</span>
+						    <span class="short_title">人气肉类组合套餐，提供免费WiFi</span>
+					      </a>
+				        </h3>
+				        <p class="deal-tile__detail">
+					      <span class="real_price f-l">&yen;99</span>
+					      <span class="store_price f-l">门店价</span>
+					      <span class="old_price f-l">&yen;120</span>
+					      <span class="saled f-r">已售10031</span>
+				        </p>
+				        <p class="evaluated">
+					      <a href="" class="f-r">
+					        <span class="star_out">
+		    		          <span class="star_in">	
+		    		          </span>
+		    	            </span>
+					        <span class="evaluated_all">640人评价</span>
+					      </a>
+				        </p>
+			          </div>
+		             </div>
+		          </li>
+		          <li>
+		     	    <div class="item_box">
+		              <div class="item">
+				        <a class="picture_title_link">
+					      <img src="images/food-pic10.jpg" alt="图片链接"/>
+					      <i class="multiple_packages"></i>
+					      <i class="drive_thru_service"></i>
+				        </a>
+				        <h3>
+					      <a href="">
+						    <span class="xtitle">【5店通用】新石器烤肉3</span>
+						    <span class="short_title">人气肉类组合套餐，提供免费WiFi</span>
+					      </a>
+				        </h3>
+				        <p class="deal-tile__detail">
+					      <span class="real_price f-l">&yen;99</span>
+					      <span class="store_price f-l">门店价</span>
+					      <span class="old_price f-l">&yen;120</span>
+					      <span class="saled f-r">已售10031</span>
+				        </p>
+				        <p class="evaluated">
+					      <a href="" class="f-r">
+					        <span class="star_out">
+		    		          <span class="star_in">	
+		    		          </span>
+		    	            </span>
+					        <span class="evaluated_all">640人评价</span>
+					      </a>
+				        </p>
+			          </div>
+		             </div>
+		            <div class="item_box">
+		              <div class="item">
+				        <a class="picture_title_link">
+					      <img src="images/food-pic10.jpg" alt="图片链接"/>
+					      <i class="multiple_packages"></i>
+					      <i class="drive_thru_service"></i>
+				        </a>
+				        <h3>
+					      <a href="">
+						    <span class="xtitle">【5店通用】新石器烤肉</span>
+						    <span class="short_title">人气肉类组合套餐，提供免费WiFi</span>
+					      </a>
+				        </h3>
+				        <p class="deal-tile__detail">
+					      <span class="real_price f-l">&yen;99</span>
+					      <span class="store_price f-l">门店价</span>
+					      <span class="old_price f-l">&yen;120</span>
+					      <span class="saled f-r">已售10031</span>
+				        </p>
+				        <p class="evaluated">
+					      <a href="" class="f-r">
+					        <span class="star_out">
+		    		          <span class="star_in">	
+		    		          </span>
+		    	            </span>
+					        <span class="evaluated_all">640人评价</span>
+					      </a>
+				        </p>
+			          </div>
+		             </div>
+		            <div class="item_box">
+		              <div class="item">
+				        <a class="picture_title_link">
+					      <img src="images/food-pic10.jpg" alt="图片链接"/>
+					      <i class="multiple_packages"></i>
+					      <i class="drive_thru_service"></i>
+				        </a>
+				        <h3>
+					      <a href="">
+						    <span class="xtitle">【5店通用】新石器烤肉</span>
+						    <span class="short_title">人气肉类组合套餐，提供免费WiFi</span>
+					      </a>
+				        </h3>
+				        <p class="deal-tile__detail">
+					      <span class="real_price f-l">&yen;99</span>
+					      <span class="store_price f-l">门店价</span>
+					      <span class="old_price f-l">&yen;120</span>
+					      <span class="saled f-r">已售10031</span>
+				        </p>
+				        <p class="evaluated">
+					      <a href="" class="f-r">
+					        <span class="star_out">
+		    		          <span class="star_in">	
+		    		          </span>
+		    	            </span>
+					        <span class="evaluated_all">640人评价</span>
+					      </a>
+				        </p>
+			          </div>
+		             </div>
+		            <div class="item_box">
+		              <div class="item">
+				        <a class="picture_title_link">
+					      <img src="images/food-pic10.jpg" alt="图片链接"/>
+					      <i class="multiple_packages"></i>
+					      <i class="drive_thru_service"></i>
+				        </a>
+				        <h3>
+					      <a href="">
+						    <span class="xtitle">【5店通用】新石器烤肉</span>
+						    <span class="short_title">人气肉类组合套餐，提供免费WiFi</span>
+					      </a>
+				        </h3>
+				        <p class="deal-tile__detail">
+					      <span class="real_price f-l">&yen;99</span>
+					      <span class="store_price f-l">门店价</span>
+					      <span class="old_price f-l">&yen;120</span>
+					      <span class="saled f-r">已售10031</span>
+				        </p>
+				        <p class="evaluated">
+					      <a href="" class="f-r">
+					        <span class="star_out">
+		    		          <span class="star_in">	
+		    		          </span>
+		    	            </span>
+					        <span class="evaluated_all">640人评价</span>
+					      </a>
+				        </p>
+			          </div>
+		             </div>
+		            <div class="item_box">
+		              <div class="item">
+				        <a class="picture_title_link">
+					      <img src="images/food-pic10.jpg" alt="图片链接"/>
+					      <i class="multiple_packages"></i>
+					      <i class="drive_thru_service"></i>
+				        </a>
+				        <h3>
+					      <a href="">
+						    <span class="xtitle">【5店通用】新石器烤肉</span>
+						    <span class="short_title">人气肉类组合套餐，提供免费WiFi</span>
+					      </a>
+				        </h3>
+				        <p class="deal-tile__detail">
+					      <span class="real_price f-l">&yen;99</span>
+					      <span class="store_price f-l">门店价</span>
+					      <span class="old_price f-l">&yen;120</span>
+					      <span class="saled f-r">已售10031</span>
+				        </p>
+				        <p class="evaluated">
+					      <a href="" class="f-r">
+					        <span class="star_out">
+		    		          <span class="star_in">	
+		    		          </span>
+		    	            </span>
+					        <span class="evaluated_all">640人评价</span>
+					      </a>
+				        </p>
+			          </div>
+		             </div>
+		          </li>
+		     	  <li>
+		     	    <div class="item_box">
+		              <div class="item">
+				        <a class="picture_title_link">
+					      <img src="images/food-pic10.jpg" alt="图片链接"/>
+					      <i class="multiple_packages"></i>
+					      <i class="drive_thru_service"></i>
+				        </a>
+				        <h3>
+					      <a href="">
+						    <span class="xtitle">【5店通用】新石器烤肉1</span>
+						    <span class="short_title">人气肉类组合套餐，提供免费WiFi</span>
+					      </a>
+				        </h3>
+				        <p class="deal-tile__detail">
+					      <span class="real_price f-l">&yen;99</span>
+					      <span class="store_price f-l">门店价</span>
+					      <span class="old_price f-l">&yen;120</span>
+					      <span class="saled f-r">已售10031</span>
+				        </p>
+				        <p class="evaluated">
+					      <a href="" class="f-r">
+					        <span class="star_out">
+		    		          <span class="star_in">	
+		    		          </span>
+		    	            </span>
+					        <span class="evaluated_all">640人评价</span>
+					      </a>
+				        </p>
+			          </div>
+		             </div>
+		            <div class="item_box">
+		              <div class="item">
+				        <a class="picture_title_link">
+					      <img src="images/food-pic10.jpg" alt="图片链接"/>
+					      <i class="multiple_packages"></i>
+					      <i class="drive_thru_service"></i>
+				        </a>
+				        <h3>
+					      <a href="">
+						    <span class="xtitle">【5店通用】新石器烤肉</span>
+						    <span class="short_title">人气肉类组合套餐，提供免费WiFi</span>
+					      </a>
+				        </h3>
+				        <p class="deal-tile__detail">
+					      <span class="real_price f-l">&yen;99</span>
+					      <span class="store_price f-l">门店价</span>
+					      <span class="old_price f-l">&yen;120</span>
+					      <span class="saled f-r">已售10031</span>
+				        </p>
+				        <p class="evaluated">
+					      <a href="" class="f-r">
+					        <span class="star_out">
+		    		          <span class="star_in">	
+		    		          </span>
+		    	            </span>
+					        <span class="evaluated_all">640人评价</span>
+					      </a>
+				        </p>
+			          </div>
+		             </div>
+		            <div class="item_box">
+		              <div class="item">
+				        <a class="picture_title_link">
+					      <img src="images/food-pic10.jpg" alt="图片链接"/>
+					      <i class="multiple_packages"></i>
+					      <i class="drive_thru_service"></i>
+				        </a>
+				        <h3>
+					      <a href="">
+						    <span class="xtitle">【5店通用】新石器烤肉</span>
+						    <span class="short_title">人气肉类组合套餐，提供免费WiFi</span>
+					      </a>
+				        </h3>
+				        <p class="deal-tile__detail">
+					      <span class="real_price f-l">&yen;99</span>
+					      <span class="store_price f-l">门店价</span>
+					      <span class="old_price f-l">&yen;120</span>
+					      <span class="saled f-r">已售10031</span>
+				        </p>
+				        <p class="evaluated">
+					      <a href="" class="f-r">
+					        <span class="star_out">
+		    		          <span class="star_in">	
+		    		          </span>
+		    	            </span>
+					        <span class="evaluated_all">640人评价</span>
+					      </a>
+				        </p>
+			          </div>
+		             </div>
+		            <div class="item_box">
+		              <div class="item">
+				        <a class="picture_title_link">
+					      <img src="images/food-pic10.jpg" alt="图片链接"/>
+					      <i class="multiple_packages"></i>
+					      <i class="drive_thru_service"></i>
+				        </a>
+				        <h3>
+					      <a href="">
+						    <span class="xtitle">【5店通用】新石器烤肉</span>
+						    <span class="short_title">人气肉类组合套餐，提供免费WiFi</span>
+					      </a>
+				        </h3>
+				        <p class="deal-tile__detail">
+					      <span class="real_price f-l">&yen;99</span>
+					      <span class="store_price f-l">门店价</span>
+					      <span class="old_price f-l">&yen;120</span>
+					      <span class="saled f-r">已售10031</span>
+				        </p>
+				        <p class="evaluated">
+					      <a href="" class="f-r">
+					        <span class="star_out">
+		    		          <span class="star_in">	
+		    		          </span>
+		    	            </span>
+					        <span class="evaluated_all">640人评价</span>
+					      </a>
+				        </p>
+			          </div>
+		             </div>
+		            <div class="item_box">
+		              <div class="item">
+				        <a class="picture_title_link">
+					      <img src="images/food-pic10.jpg" alt="图片链接"/>
+					      <i class="multiple_packages"></i>
+					      <i class="drive_thru_service"></i>
+				        </a>
+				        <h3>
+					      <a href="">
+						    <span class="xtitle">【5店通用】新石器烤肉</span>
+						    <span class="short_title">人气肉类组合套餐，提供免费WiFi</span>
+					      </a>
+				        </h3>
+				        <p class="deal-tile__detail">
+					      <span class="real_price f-l">&yen;99</span>
+					      <span class="store_price f-l">门店价</span>
+					      <span class="old_price f-l">&yen;120</span>
+					      <span class="saled f-r">已售10031</span>
+				        </p>
+				        <p class="evaluated">
+					      <a href="" class="f-r">
+					        <span class="star_out">
+		    		          <span class="star_in">	
+		    		          </span>
+		    	            </span>
+					        <span class="evaluated_all">640人评价</span>
+					      </a>
+				        </p>
+			          </div>
+		             </div>
+		          </li>
+		     	</ul> 
 		     </div>
 		</section>
 		
@@ -724,5 +1451,9 @@
 		<script src="js/logo.js"></script>
 		<script src="js/nav.js"></script>
 		<script src="js/famous-timer.js"></script>
+		<script src="js/famous-pic.js"></script>
+		<script>
+		 
+		</script>
 	</body>
 </html>

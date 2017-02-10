@@ -110,11 +110,13 @@
 	left: 247px;
 	top: 0px;
 	display: none;
+	background: #fff;
 }
 
 .nav_allitem {
 	/*代表section 包含nav_item和nav_item2*/
 	position: relative;
+	z-index: 1000;
 }
 
 .nav_item2 dl {

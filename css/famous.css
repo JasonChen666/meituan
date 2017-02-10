@@ -1,0 +1,61 @@
+ .famous-top {
+ 	width: 380px;
+ 	height: 40px;
+ 	font-size: 20px;
+ 	color: #666;
+ 	line-height: 40px;
+ 	text-align: center;
+ 	margin-bottom: 10px;
+ }
+ 
+ .shoppingrush {
+ 	padding-left: 37px;
+ 	background: url('../images/clock.png') no-repeat;
+ 	display: inline-block;
+ }
+ 
+ .rushtime {
+ 	margin-left: 10px;
+ 	display: inline-block;
+ 	border: 1px solid #eee;
+ 	border-radius: 10px;
+ 	padding: 0 6px 0 6px;
+ 	text-align: center;
+ }
+ 
+ .underway {
+ 	background: url('../images/time-start.png') no-repeat;
+ 	width: 49px;
+ 	height: 28px;
+ 	vertical-align: middle;
+ 	display: inline-block;
+ }
+ 
+ .rushtime span {
+ 	background: url('../images/time-bg.png') no-repeat;
+ 	width: 20px;
+ 	height: 28px;
+ 	vertical-align: middle;
+ 	color: #fff;
+ 	display: inline-block;
+ 	text-align: center;
+ 	line-height: 28px;
+ }
+ 
+ .famous-items ul {
+ 	height: 311px;
+ 	width: 4690px;
+ 	/*3*1170*/
+ 	position: absolute;
+ 	left: 0;
+ }
+ 
+ .famous-items ul li {
+ 	float: left;
+ }
+ 
+ .famous .famous-items {
+ 	height: 311px;
+ 	position: relative;
+ 	border: 1px solid #eee;
+ }
