@@ -70,7 +70,7 @@ for(var i=0; i<lis.length; i++)
 
 //nav中的轮播图
 var nav_shuffling = document.getElementById("shuffling_ul");
-var dx2 = 10;
+var dx2 = 4;
 var currentIndex2 = 0;
 function move2() {
 	currentIndex2++;
@@ -78,7 +78,7 @@ function move2() {
 	  shuffling_ul.style.left = "0px";
 	  currentIndex2 = 1;
 	}
-	var target2 = -692 * currentIndex2;
+	var target2 = -692* currentIndex2;
 	var timer2 = setInterval( function() {
 	var oldleft2 = nav_shuffling.offsetLeft;
 	if (oldleft2 <= target2){
@@ -90,7 +90,8 @@ function move2() {
 	var newleft2 = oldleft2 - dx2;
 	nav_shuffling.style.left = newleft2 + "px";
 	}
-  }, 30);
+  }, 3);
 	
 }
+
 move2();
