@@ -78,7 +78,7 @@ function move2() {
 	  shuffling_ul.style.left = "0px";
 	  currentIndex2 = 1;
 	}
-	var target2 = -729 * currentIndex2;
+	var target2 = -692 * currentIndex2;
 	var timer2 = setInterval( function() {
 	var oldleft2 = nav_shuffling.offsetLeft;
 	if (oldleft2 <= target2){
