@@ -17,7 +17,7 @@ function move() {
 			clearInterval(timer);
 			setTimeout(function() {
 				move();
-			}, 3000);
+			}, 5000);
 		} else {
 			var newleft = oldleft - dx;
 			itemul.style.left = newleft + "px";

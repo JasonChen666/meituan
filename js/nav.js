@@ -85,7 +85,7 @@ function move2() {
       clearInterval(timer2);
       setTimeout(function(){
       	move2();
-      }, 3000);
+      }, 4000);
 	} else {
 	var newleft2 = oldleft2 - dx2;
 	nav_shuffling.style.left = newleft2 + "px";

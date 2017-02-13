@@ -152,7 +152,7 @@
 }
 
 
-/*nav 轮播图和上面三行*/
+/*********************************nav 轮播图和上面三行********************************/
 
 .nav_middleall {
 	width: 727px;
@@ -220,9 +220,10 @@
 
 .nav_pic {
 	width: 336px;
-	height: 317px;
+	height: 316px;
 	display: inline-block;
 	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
 }
 
 .nav_pic_img {
@@ -233,13 +234,13 @@
 .nav_pic_img2 {
 	display: block;
 	margin-top: 10px;
-	margin-left: 5px;
 }
 
 .nav_pic2 {
 	width: 351px;
-	height: 317px;
+	height: 316px;
 	display: inline-block;
+	border-bottom: 1px solid #ddd;
 }
 
 .nav_pic img {
