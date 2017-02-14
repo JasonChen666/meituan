@@ -24,6 +24,10 @@
 	width: 910px;
 }
 
+.width980 header ul {
+   	width: 720px;
+}
+
 .nav header ul {
 	height: 38px;
 	font-size: 16px;

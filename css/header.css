@@ -58,6 +58,7 @@ a:hover .collect {
 	border-left: 1px solid transparent;
 	border-right: 1px solid transparent;
 	z-index: 20;
+	margin-left: -1px;
 }
 
 .icon_tri {
